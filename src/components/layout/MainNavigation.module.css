@@ -36,7 +36,6 @@
 .nav a:active,
 .nav a.active {
   background-color: #feb4b4;
-  padding: 9px;
   border-radius: 20%;
   width: 8px;
   height: 7.5px;
