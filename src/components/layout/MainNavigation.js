@@ -16,9 +16,10 @@ const MainNavigation = () => {
   return (
     <header className={classes.header}>
       <NavLink to="/home" className={classes.logo}>
-        <div className={classes.logo}>
+        <div className={classes.icon}>
           <i className="fa-solid fa-book"></i>
-          Reciply <FontAwesomeIcon icon={faHatCowboy} />
+          Reciply{" "}
+          <FontAwesomeIcon icon={faHatCowboy} className={classes.icon} />
         </div>
       </NavLink>
       <nav className={classes.nav}>
@@ -52,7 +53,7 @@ const MainNavigation = () => {
               to="/new-recipe"
               className={(navData) => (navData.isActive ? classes.active : "")}
             >
-              <FontAwesomeIcon icon={faPlus} className={classes.wide} />
+              <FontAwesomeIcon icon={faPlus} className={classes.icon} />
             </NavLink>
           </li>
           <li>
@@ -62,7 +63,7 @@ const MainNavigation = () => {
             >
               <FontAwesomeIcon
                 icon={faUserAstronaut}
-                className={classes.wide}
+                className={classes.icon}
               />
             </NavLink>
           </li>

@@ -1,4 +1,4 @@
-$radius: 0.2rem;
+
 
 *,
 *::before,
@@ -22,7 +22,7 @@ body {
 .card {
   overflow: hidden;
   box-shadow: 0 2px 20px gray;
-  border-radius: $radius;
+  border-radius: .2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -49,6 +49,6 @@ body {
   margin: 1rem;
   border: 2px solid red;
   background: transparent;
-  border-radius: $radius;
+  border-radius: .2rem;
   transition: background 200ms ease-in, color 200ms ease-in;
 }
