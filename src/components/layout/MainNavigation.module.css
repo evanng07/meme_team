@@ -10,7 +10,7 @@
 
 .logo {
   font-size: 2rem;
-  color: #800000;
+  
   text-decoration: none;
 }
 
@@ -19,18 +19,18 @@
   display: flex;
   margin: 0;
   padding: 0;
-  color: #800000;
+  
 }
 
 .nav li {
   margin-left: 2.5rem;
   font-size: 1.75rem;
-  color: #800000;
+  
 }
 
 .nav a {
   text-decoration: none;
-  color: #800000;
+  
 }
 
 .nav a:active,
@@ -46,4 +46,53 @@
   width: 30px;
 }
 
+.searchbox{
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #feb4b4;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+  
+ 
+}.searchbox:hover > .searchtxt{
+  width: 240px;
+  padding: 0 6px;
+}
 
+.searchbox:hover > .searchbtn{
+  background: white;
+
+}
+.mag {
+  color: #800000;
+}
+
+.search-btn{
+  color: #800000;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #feb4b4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+
+.searchtxt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: #800000;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
+ 
