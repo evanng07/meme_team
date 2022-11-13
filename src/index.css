@@ -21,3 +21,10 @@ code {
   font-weight: 700;
   font-size: 40px;
 }
+
+.border {
+  border: solid;
+  border-color: red;
+  border-width: 10px;
+}
+
