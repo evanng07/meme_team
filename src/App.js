@@ -1,8 +1,13 @@
+import React from 'react';
 import {Route, Routes, Link} from 'react-router-dom';
 import Layout from './components/layout/Layout';
 import HomePage from './pages/HomePage';
 import ProfilePage from './pages/ProfilePage';
 import SearchPage from './pages/SearchPage';
+
+
+
+
 
 function App() {
   return (

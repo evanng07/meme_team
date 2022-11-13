@@ -1,11 +1,17 @@
+import { Box } from '@mui/material';
 
 const ProfilePage = () => {
     return (
-        <div className="centered">
-            <p>Profile Page</p>
+        <>
+            <div className="centered">
+                <p>Profile Page</p>
+
+            </div>
             
-        </div>
+        </>
     )
 }
+
+
 
 export default ProfilePage
