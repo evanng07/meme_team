@@ -10,28 +10,33 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import classes from "./MainNavigation.module.css";
+import { Button, Icon } from "@mui/material";
 
 const MainNavigation = () => {
   return (
     <header className={classes.header}>
       <NavLink to="/home" className={classes.logo}>
         <div className={classes.logo}>
-          <i class="fa-solid fa-book"></i>
-          Reciply <FontAwesomeIcon icon={faHatCowboy}/>
+          <i className="fa-solid fa-book"></i>
+          Reciply <FontAwesomeIcon icon={faHatCowboy} />
         </div>
       </NavLink>
       <nav className={classes.nav}>
         <ul>
           <li>
-            <NavLink
-              to="/search-page"
-              className={(navData) => (navData.isActive ? classes.active : "")}
-            >
+            <div className={classes.searchbox}>
+              <input
+                className={classes.searchtxt}
+                type="text"
+                name=""
+                placeholder="Search"
+              />
+              <a className={classes.searchbtn} href="#"></a>
               <FontAwesomeIcon
                 icon={faMagnifyingGlass}
                 className={classes.icon}
               />
-            </NavLink>
+            </div>
           </li>
           <li>
             <NavLink
