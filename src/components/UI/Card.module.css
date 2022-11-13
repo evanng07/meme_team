@@ -2,15 +2,8 @@ body {
   margin:2rem;
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
-  gap: 2rem;
-  justify-content: center;
-}
-
 .card {
-  width: 400px;
+  width: 300px;
   overflow: hidden;
   box-shadow: 0 2px 20px gray;
   border-radius: 3px;
@@ -19,7 +12,7 @@ body {
   justify-content: space-between;
   cursor: pointer;
   transition: transform 200ms ease-in;
-  margin-top: 50px
+  margin-top: 50px;
 }
 
 .image {
