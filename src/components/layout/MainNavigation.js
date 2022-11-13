@@ -49,7 +49,7 @@ const MainNavigation = () => {
 
           <li>
             <NavLink
-              to="/new-recipe"
+              to="/newRecipe"
               className={(navData) => (navData.isActive ? classes.active : "")}
             >
               <FontAwesomeIcon icon={faPlus} className={classes.wide} />
