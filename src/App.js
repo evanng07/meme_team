@@ -1,8 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import {Route, Routes, Link} from 'react-router-dom';
+import Layout from './components/layout/Layout';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
+<<<<<<< HEAD
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,6 +21,16 @@ function App() {
         </a>
       </header>
     </div>
+=======
+    <Layout>
+      <Routes>
+        <Route path ='/' element={<HomePage/>} />
+        <Route path ='/home' element={<HomePage/>} />
+        <Route path ='/new-recipe' element={<HomePage/>} />
+        <Route path ='/search-recipe' element={<HomePage/>} />
+      </Routes>
+    </Layout>
+>>>>>>> cb903817134799ef1fcdf1692993354d4f31b703
   );
 }
 
